@@ -3,6 +3,7 @@ services:
   - docker
 
 install:
+  - git fetch --unshallow --tags
   - pip install PyYAML
   - pip install virtualenv
   - pip install reno
